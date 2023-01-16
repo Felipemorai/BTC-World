@@ -11,10 +11,6 @@ body {
     background: #8ecae6;
 }
 
-.login {
-    display: none;
-}
-
 .container {
     background: #fff;
     width: 1200px;
@@ -32,6 +28,7 @@ body {
 
 .box-2 {
     display: none;
+    grid-template-columns: auto 400px;
 }
 
 .sign-up {
@@ -39,6 +36,14 @@ body {
     flex-direction: column;
     justify-content: center;
     padding-left: 60px;
+    gap: 70px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 60px;
     gap: 70px;
 }
 
