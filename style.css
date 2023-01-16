@@ -22,7 +22,7 @@ body {
 }
 
 .box-1 {
-    display: grid;
+    display: none;
     grid-template-columns: 400px auto;
 }
 
@@ -106,4 +106,12 @@ input::placeholder {
 img {
     width: 100%;
     transition: transform 1.1s ease-in-out;
+}
+
+.ativo {
+    display: grid;
+}
+
+article.ativo {
+    display: grid;
 }

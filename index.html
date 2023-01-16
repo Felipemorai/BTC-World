@@ -9,7 +9,7 @@
 </head>
 <body>
     <main class="container">
-        <div class="box-1">
+        <article class="box-1">
             <section class="sign-up">
                 <div class="nav">
                     <div class="logo">BTC World</div>
@@ -21,9 +21,9 @@
                 </div>
 
                 <form action="" class="form">
-                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="text" name="name" id="name" placeholder="Name" required>
 
-                    <input type="password" name="password" id="password" placeholder="Password">
+                    <input type="password" name="password" id="password" placeholder="Password" required>
 
                     <button class="btn-sign">Sign in</button>
                 </form>
@@ -32,9 +32,9 @@
             </section>
 
             <img src="./img/New message-rafiki.svg" alt="">
-        </div>
+        </article>
 
-        <div class="box-2">
+        <article class="box-2">
             <img src="./img/Bitcoin-rafiki.svg" alt="">
 
             <section class="login">
@@ -48,19 +48,21 @@
                 </div>
 
                 <form action="" class="form">
-                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="text" name="name" id="name" placeholder="Name" required>
 
-                    <input type="email" name="email" id="email" placeholder="Email">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
 
-                    <input type="password" name="password" id="password" placeholder="Password">
+                    <input type="password" name="password" id="password" placeholder="Password" required>
 
                     <button class="btn-sign">Sign Up</button>
 
                     <p class="help">By signing up, i agree to the <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a></p>
                 </form>
             </section>
-        </div>
+        </article>
         
     </main>
+
+    <script src="./script.js"></script>
 </body>
 </html>
